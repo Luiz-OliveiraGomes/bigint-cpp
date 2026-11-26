@@ -1,6 +1,16 @@
 # BigInt em C++
 
+**C++17 · Biblioteca de inteiros · Terminal**
+
 Calculadora de terminal para operar com inteiros maiores do que os tipos nativos do C++ conseguem representar. Desenvolvi a classe `BigInt` para um projeto da disciplina de C++ na UFRN.
+
+<p align="center">
+  <img src="docs/img/representacao-bigint.png" alt="Sinal, quantidade de dígitos e armazenamento de 357 em ordem inversa" width="880">
+</p>
+
+A classe armazena o dígito menos significativo na posição zero. O sinal é mantido separadamente.
+
+## Funcionalidades
 
 - Armazena o sinal e os dígitos decimais em memória dinâmica.
 - Implementa soma, subtração, multiplicação, divisão inteira com quociente e resto, comparações e fatorial.
